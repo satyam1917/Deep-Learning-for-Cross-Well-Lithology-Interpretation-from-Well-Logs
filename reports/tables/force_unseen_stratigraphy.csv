@@ -1,0 +1,5 @@
+origin,column,pct_rows_unseen_category
+open_test,GROUP,0.0
+open_test,FORMATION,0.0
+hidden_test,GROUP,0.0
+hidden_test,FORMATION,0.04

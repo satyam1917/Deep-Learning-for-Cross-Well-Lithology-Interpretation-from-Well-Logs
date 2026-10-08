@@ -1,0 +1,52 @@
+{
+  "wells": 118,
+  "rows": 1429694,
+  "rows_by_origin": {
+    "train": 1170511,
+    "open_test": 136786,
+    "hidden_test": 122397
+  },
+  "median_depth_step_m": 0.152,
+  "curves_present_per_well_mean": 12.97,
+  "curves_present_per_well_min": 8,
+  "curves_present_per_well_max": 17,
+  "n_distinct_availability_patterns": 68,
+  "label_confidence_share_train": {
+    "1.0": 0.8662,
+    "2.0": 0.1034,
+    "3.0": 0.0304
+  },
+  "top_ks_shifts": [
+    {
+      "curve": "DCAL",
+      "split": "open_test",
+      "ks": 0.4761
+    },
+    {
+      "curve": "DCAL",
+      "split": "hidden_test",
+      "ks": 0.3428
+    },
+    {
+      "curve": "SP",
+      "split": "hidden_test",
+      "ks": 0.2848
+    },
+    {
+      "curve": "SP",
+      "split": "open_test",
+      "ks": 0.2565
+    },
+    {
+      "curve": "ROP",
+      "split": "hidden_test",
+      "ks": 0.2391
+    },
+    {
+      "curve": "SGR",
+      "split": "hidden_test",
+      "ks": 0.2355
+    }
+  ],
+  "pct_samples_train_imbalance_ratio": 6998.1
+}

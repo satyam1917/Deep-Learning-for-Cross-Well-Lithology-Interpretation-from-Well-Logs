@@ -1,0 +1,10 @@
+{
+  "force2020/hidden_test.csv": "c75e817bfefcabd2bacdefd9e1c74dbd829d24543646bf0b85ef8fbf5c06f069",
+  "force2020/leaderboard_test_features.csv": "4688d93728feab7e86855b9315ddfc8b498387927954235f7dbbfa2216550781",
+  "force2020/leaderboard_test_target.csv": "4fe5e59809d98eb9b8b0a3836776bd52e5c7e63ffefa31476fa17011a27ef382",
+  "force2020/penalty_matrix.npy": "c312481af94d3557616b7ed79b5d1a12afee380fd471188785ab31874f159d43",
+  "force2020/train.zip": "e996c8466f2d0dc7116daa71485cc90c31fcfac6345a5bb33165026478b642e9",
+  "seg2016/blind_stuart_crawford_core_facies.csv": "025e228cd4b5aee50225ec91822929924acebbaf2d9e18fff202bf4c5f64e1fe",
+  "seg2016/facies_vectors.csv": "83fd9d15bbab3aed0c1dca20e7c7d2befedd110b04ee21f8c790ac03d70aa70b",
+  "seg2016/validation_data_nofacies.csv": "c03ad96bfa3c8b23ffff261ed8affa73b14cb5513e938d1f1168c30a983f5360"
+}

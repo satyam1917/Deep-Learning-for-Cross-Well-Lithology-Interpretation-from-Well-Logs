@@ -1,0 +1,166 @@
+{
+  "official": {
+    "train": [
+      "ALEXANDER D",
+      "CHURCHMAN BIBLE",
+      "CROSS H CATTLE",
+      "KIMZEY A",
+      "LUKE G U",
+      "NEWBY",
+      "NOLAN",
+      "Recruit F9",
+      "SHANKLE",
+      "SHRIMPLIN"
+    ],
+    "blind": [
+      "CRAWFORD",
+      "STUART"
+    ]
+  },
+  "leave_one_well_out": [
+    {
+      "val": [
+        "ALEXANDER D"
+      ],
+      "train": [
+        "CHURCHMAN BIBLE",
+        "CROSS H CATTLE",
+        "KIMZEY A",
+        "LUKE G U",
+        "NEWBY",
+        "NOLAN",
+        "Recruit F9",
+        "SHANKLE",
+        "SHRIMPLIN"
+      ]
+    },
+    {
+      "val": [
+        "CHURCHMAN BIBLE"
+      ],
+      "train": [
+        "ALEXANDER D",
+        "CROSS H CATTLE",
+        "KIMZEY A",
+        "LUKE G U",
+        "NEWBY",
+        "NOLAN",
+        "Recruit F9",
+        "SHANKLE",
+        "SHRIMPLIN"
+      ]
+    },
+    {
+      "val": [
+        "CROSS H CATTLE"
+      ],
+      "train": [
+        "ALEXANDER D",
+        "CHURCHMAN BIBLE",
+        "KIMZEY A",
+        "LUKE G U",
+        "NEWBY",
+        "NOLAN",
+        "Recruit F9",
+        "SHANKLE",
+        "SHRIMPLIN"
+      ]
+    },
+    {
+      "val": [
+        "KIMZEY A"
+      ],
+      "train": [
+        "ALEXANDER D",
+        "CHURCHMAN BIBLE",
+        "CROSS H CATTLE",
+        "LUKE G U",
+        "NEWBY",
+        "NOLAN",
+        "Recruit F9",
+        "SHANKLE",
+        "SHRIMPLIN"
+      ]
+    },
+    {
+      "val": [
+        "LUKE G U"
+      ],
+      "train": [
+        "ALEXANDER D",
+        "CHURCHMAN BIBLE",
+        "CROSS H CATTLE",
+        "KIMZEY A",
+        "NEWBY",
+        "NOLAN",
+        "Recruit F9",
+        "SHANKLE",
+        "SHRIMPLIN"
+      ]
+    },
+    {
+      "val": [
+        "NEWBY"
+      ],
+      "train": [
+        "ALEXANDER D",
+        "CHURCHMAN BIBLE",
+        "CROSS H CATTLE",
+        "KIMZEY A",
+        "LUKE G U",
+        "NOLAN",
+        "Recruit F9",
+        "SHANKLE",
+        "SHRIMPLIN"
+      ]
+    },
+    {
+      "val": [
+        "NOLAN"
+      ],
+      "train": [
+        "ALEXANDER D",
+        "CHURCHMAN BIBLE",
+        "CROSS H CATTLE",
+        "KIMZEY A",
+        "LUKE G U",
+        "NEWBY",
+        "Recruit F9",
+        "SHANKLE",
+        "SHRIMPLIN"
+      ]
+    },
+    {
+      "val": [
+        "SHANKLE"
+      ],
+      "train": [
+        "ALEXANDER D",
+        "CHURCHMAN BIBLE",
+        "CROSS H CATTLE",
+        "KIMZEY A",
+        "LUKE G U",
+        "NEWBY",
+        "NOLAN",
+        "Recruit F9",
+        "SHRIMPLIN"
+      ]
+    },
+    {
+      "val": [
+        "SHRIMPLIN"
+      ],
+      "train": [
+        "ALEXANDER D",
+        "CHURCHMAN BIBLE",
+        "CROSS H CATTLE",
+        "KIMZEY A",
+        "LUKE G U",
+        "NEWBY",
+        "NOLAN",
+        "Recruit F9",
+        "SHANKLE"
+      ]
+    }
+  ]
+}

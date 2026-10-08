@@ -1,0 +1,71 @@
+{
+  "logs_core": [
+    "CALI",
+    "RHOB",
+    "GR",
+    "NPHI",
+    "PEF",
+    "DTC",
+    "BS",
+    "DRHO",
+    "log10_RMED",
+    "log10_RDEP"
+  ],
+  "logs_all": [
+    "CALI",
+    "RHOB",
+    "GR",
+    "SGR",
+    "NPHI",
+    "PEF",
+    "DTC",
+    "SP",
+    "BS",
+    "ROP",
+    "DTS",
+    "DCAL",
+    "DRHO",
+    "ROPA",
+    "log10_RSHA",
+    "log10_RMED",
+    "log10_RDEP",
+    "log10_RMIC",
+    "log10_RXO"
+  ],
+  "geometry": [
+    "DEPTH_MD",
+    "X_LOC",
+    "Y_LOC",
+    "Z_LOC"
+  ],
+  "stratigraphy": [
+    "GROUP",
+    "FORMATION"
+  ],
+  "excluded_unreliable": {
+    "MUDWEIGHT": "mixed units across wells: ~0.13-0.20 in 20 of the 28 wells that have it, 1.0-2.4 g/cc elsewhere; also 92 % missing"
+  },
+  "fraction_of_wells_with_curve": {
+    "CALI": 0.9831,
+    "RHOB": 1.0,
+    "GR": 1.0,
+    "SGR": 0.1186,
+    "NPHI": 1.0,
+    "PEF": 0.7458,
+    "DTC": 1.0,
+    "SP": 0.6441,
+    "BS": 0.7034,
+    "ROP": 0.5508,
+    "DTS": 0.3898,
+    "DCAL": 0.2373,
+    "DRHO": 0.9492,
+    "ROPA": 0.3136,
+    "log10_RSHA": 0.6949,
+    "log10_RMED": 0.9915,
+    "log10_RDEP": 1.0,
+    "log10_RMIC": 0.2797,
+    "log10_RXO": 0.3644
+  },
+  "core_threshold_fraction_of_wells": 0.7,
+  "present_min_coverage_within_well": 0.05
+}

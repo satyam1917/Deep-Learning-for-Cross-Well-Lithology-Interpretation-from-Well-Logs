@@ -1,0 +1,8 @@
+{
+  "rows_raw": 4979,
+  "duplicate_depth_rows_removed": 3,
+  "blind_rows": 830,
+  "blind_rows_without_label": 21,
+  "pct_PE_missing": 18.42,
+  "rows_clean": 4976
+}

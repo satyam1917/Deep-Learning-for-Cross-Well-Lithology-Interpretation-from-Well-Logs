@@ -1,0 +1,8 @@
+{
+  "map": {
+    "GR": "GR",
+    "PE": "PEF",
+    "ILD_log10": "log10_RDEP"
+  },
+  "note": "Only curves with a comparable meaning are mapped. ILD is an induction log, FORCE RDEP is a deep resistivity: similar, not identical. Facies and lithology label sets are different and are not mapped."
+}

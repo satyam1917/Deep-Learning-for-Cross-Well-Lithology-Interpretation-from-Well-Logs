@@ -1,0 +1,46 @@
+{
+  "class_names": [
+    "Nonmarine sandstone",
+    "Nonmarine coarse siltstone",
+    "Nonmarine fine siltstone",
+    "Marine siltstone and shale",
+    "Mudstone",
+    "Wackestone",
+    "Dolomite",
+    "Packstone-grainstone",
+    "Phylloid-algal bafflestone"
+  ],
+  "counts": [
+    268,
+    939,
+    779,
+    271,
+    296,
+    582,
+    141,
+    685,
+    185
+  ],
+  "frequency": [
+    0.064641,
+    0.226483,
+    0.187892,
+    0.065364,
+    0.071394,
+    0.140376,
+    0.034009,
+    0.165219,
+    0.044621
+  ],
+  "weight_inverse_frequency": [
+    1.1651,
+    0.3325,
+    0.4008,
+    1.1522,
+    1.0549,
+    0.5365,
+    2.2145,
+    0.4558,
+    1.6878
+  ]
+}
