@@ -50,7 +50,7 @@ Committed: code, `data/splits`, `data/stats`, `data/checksums.json`, `reports/`.
 
 - **1.43 M samples, 118 wells**, median sampling 0.152 m.
 - **Severe class imbalance**: Shale ~62 % of training samples; Basement 0.01 % (103 samples; absent from both test sets). Class prior shifts between splits (e.g. Halite 0.7 % train, 0 % open test, 5.3 % hidden test).
-- **Curve availability is the main difficulty**: wells record 8-17 of 19 curves (mean ~13), with 68 distinct availability patterns. Only GR, RDEP, RMED, CALI, DRHO, RHOB, DTC are near-universal; SGR, RMIC, DTS, DCAL, RXO are present in a minority of wells. This motivates the missing-curve study.
+- **Curve availability is the main difficulty**: wells record 8-17 of 19 curves (mean ~13), with 68 distinct availability patterns. Only GR, RHOB, NPHI, DTC, RDEP, RMED, CALI, DRHO are near-universal; SGR, RMIC, DTS, DCAL, RXO are present in a minority of wells. This motivates the missing-curve study.
 - **Covariate shift**: largest train-vs-test KS statistics are for DCAL, SP, ROP, SGR (up to 0.48), i.e. tool/environment dependent curves; GR, NPHI, DTC, RHOB are comparatively stable (KS < 0.12). Per-well normalisation of SP and SGR is a candidate for later stages (SGR has a spike at 0 in training wells).
 - **Labels are noisy**: 87 % of training samples have confidence 1 (the best), 10 % confidence 2, 3 % confidence 3. Open-test wells carry no confidence value.
 - Curves are strongly inter-correlated (density / neutron / sonic / GR), which is what makes masked-curve reconstruction plausible.
